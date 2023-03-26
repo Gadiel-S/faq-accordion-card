@@ -46,6 +46,12 @@ body {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
+.component-content .question-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
 .component-content .question {
   font-size: 0.8rem;
   color:  hsl(237, 12%, 33%);
@@ -53,20 +59,8 @@ body {
 .component-content .question:hover {
   color: hsl(14, 88%, 65%);
 }
-.component-content .arrow1 {
+.component-content .arrow {
   margin-left: 4rem;
-}
-.component-content .arrow2 {
-  margin-left: 4.25rem;
-}
-.component-content .arrow3 {
-  margin-left: 7.7rem;
-}
-.component-content .arrow4 {
-  margin-left: 7.55rem;
-}
-.component-content .arrow5 {
-  margin-left: 5.45rem;
 }
 .component-content .answer {
   max-width: 19rem;
@@ -110,5 +104,11 @@ body {
   }
   .component-content .title {
     text-align: center;
+  }
+  .component-content .arrow {
+    margin-left: 2rem;
+  }
+  .component-content .answer {
+    max-width: 16rem;
   }
 }
