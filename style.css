@@ -66,10 +66,11 @@ body {
   max-width: 18rem;
   color: hsl(237, 12%, 45%);
   margin-top: 0.75rem;
+  transition: 0.2s;
 }
 
 .hidden {
-  display: none;
+ font-size: 0;
 }
 .rotate {
   transform: rotate(180deg);
