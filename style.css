@@ -61,6 +61,7 @@ body {
 }
 .component-content .arrow {
   margin-left: 4rem;
+  transition: 0.2s;
 }
 .component-content .answer {
   max-width: 18rem;
